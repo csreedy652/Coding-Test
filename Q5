@@ -1,0 +1,6 @@
+from typing import List, Any
+
+def flatten_once(nested_list: List[Any]) -> List[Any]:
+    return [element for sublist_or_element in nested_list 
+            for element in (sublist_or_element if isinstance(sublist_or_element, list) 
+                            else [sublist_or_element])]
