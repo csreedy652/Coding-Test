@@ -1,3 +1,3 @@
-def checkVowel(s) -> int:
+def count_vowels(s) -> int:
     vowel = {'a', 'e', 'i', 'o', 'u'}
     return sum(1 for char in s.lower() if char in vowel)
