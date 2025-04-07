@@ -1,0 +1,7 @@
+from typing import Dict
+
+def sum_top_scorers(data, subject, threshold) -> int:
+    total = 0
+    for student, scores in data.items():
+        if subject in scores 
+  
